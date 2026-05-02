@@ -34,6 +34,7 @@ const GALLERY_IMAGES = [
   "/gallery-5.jpg",
   "/gallery-6.jpg",
   "/gallery-7.jpg",
+  "/gallery-8.jpg",
 ];
 
 const swipeConfidenceThreshold = 10000;
