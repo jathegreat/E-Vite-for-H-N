@@ -705,7 +705,7 @@ export default function App() {
                     <LazyImage
                       src={GALLERY_IMAGES[galleryIndex]}
                       className={`w-full h-full object-cover pointer-events-none ${
-                       galleryIndex === 3 ? 'object-left' : 'object-center'
+                       galleryIndex === 3 ? 'object-[30%_center]' : 'object-center'
                       }`}
                       alt={`Gallery moment ${galleryIndex + 1}`}
                     />
