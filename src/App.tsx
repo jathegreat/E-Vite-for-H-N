@@ -704,7 +704,9 @@ export default function App() {
                   >
                     <LazyImage
                       src={GALLERY_IMAGES[galleryIndex]}
-                      className="w-full h-full object-cover pointer-events-none"
+                      className={`w-full h-full object-cover pointer-events-none ${
+                       galleryIndex === 3 ? 'object-left' : 'object-center'
+                      }`}
                       alt={`Gallery moment ${galleryIndex + 1}`}
                     />
                   </motion.div>
