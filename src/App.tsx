@@ -17,7 +17,7 @@ interface TimeLeft {
 }
 
 // --- Constants ---
-const WEDDING_DATE = new Date('2026-05-10T15:00:00');
+const WEDDING_DATE = new Date('2026-12-27T15:00:00');
 const EVENT_TITLE = "Wedding Lunch: H&N";
 const EVENT_DESCRIPTION = "Join us for our wedding lunch celebration.";
 const EVENT_LOCATION = "ደብረ አሚን አቡነ ተክለሃይማኖት, በሰንበት ትምህርት ቤት አዳራሽ";
